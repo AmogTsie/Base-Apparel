@@ -3,7 +3,7 @@ const apparelRendering = ()=>{
     const base = document.createElement('div');
     base.classList.add('model-image');
     base.innerHTML = `
-    <img src="images/hero-desktop.jpg" alt="model" height="603"  >
+    <img src="base-apparel-coming-soon-master/images/hero-desktop.jpg" alt="model" height="603"  >
     `
     apparel.appendChild(base);
 }
