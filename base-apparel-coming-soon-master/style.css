@@ -1,0 +1,131 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans";
+  }
+
+  body{
+    background-image: url('../images/bg-pattern-desktop.svg'),
+    linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    background-position: top left;
+    background-size: contain;
+    
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  
+  .apparel{
+    display : flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh
+  }
+
+/*hero image*/
+
+
+ /* .model-image{
+   float:right;
+   height:70px;
+   width:40px;
+   padding-right: 460px;
+   margin-left:600px;
+   
+ } */
+
+/*info section*/
+
+  .info{
+    text-align: left;
+    width:auto;
+    padding:30px;
+    margin-left: 60px;
+  }
+  
+  .logo{
+    margin-bottom: 50px;
+  }
+
+  .heading{
+    margin-bottom: 40px;
+  }
+
+  .heading1{
+    color: hsl(0, 36%, 70%) ;
+    font-size: 4.4rem;
+    letter-spacing: 17.33px;
+   
+  }
+
+  .heading2{
+    font-size: 4.4rem;
+    letter-spacing: 17.32px; 
+    color: hsl(0, 6%, 24%);
+  }
+
+  .heading3{
+    font-size: 4.4rem;
+    letter-spacing: 17.32px; 
+    color: hsl(0, 6%, 24%);
+  }
+
+  .info-paragraph{
+    color: hsl(0, 36%, 70%) ; 
+    font-size: 18.32px;
+    margin-bottom:80px;
+    width:500px;
+    height:20px;
+  }
+
+
+/*form section*/
+
+  .form{
+    border-style:solid;
+    height:40px;
+    width:420px;
+    border-radius: 20px;
+    border-width: 0.2px;
+    border-color: rgb(238, 199, 219);
+  }
+
+  .form input{
+    margin-left: 20px;
+    padding: 5px;
+    outline: none;
+    border: none;
+  }
+
+  .form button{
+  height: 2.8rem;
+  width: 5.4rem;
+  margin-left:160px;
+  background-image: linear-gradient(
+    135deg,
+    rgb(248, 191, 191),
+    hsl(0, 74%, 74%)
+  );
+
+  border: none;
+  border-radius: 50px;
+
+  box-shadow: 0 15px 20px hsla(0, 44%, 60%, 25%);
+}
+  
+.email-error-text{
+   color: hsl(0, 93%, 68%);
+   display: none;
+}
+
+.error{
+  display: none;
+}
+  
